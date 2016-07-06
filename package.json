@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottgago/Portfolio-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottgago/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/scottgago/Portfolio-Website#readme",
+  "dependencies": {
+    "material-ui": "^0.15.1",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1"
+  }
+}
