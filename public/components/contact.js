@@ -7,7 +7,6 @@ const style = {
 		borderColor: "white",
 		width: '20%',
 		height: 70,
-		zIndex:2,
 		position: 'absolute',
 		bottom: 20,
 		right: 20,

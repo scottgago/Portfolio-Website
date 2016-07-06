@@ -4,15 +4,26 @@ import Background from './components/background'
 import NavBar from './components/navbar'
 import CenterSquare from './components/centerSquare'
 import Contact from './components/contact'
+import GridListExampleSimple from './components/gridList'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+injectTapEventPlugin();
+
 
 class App extends Component {
 	render () {
-		return <div>
-		<NavBar />
-		<Background />
-		<CenterSquare />
-		<Contact />
-		</div>
+		return (
+		<MuiThemeProvider>
+	  		<div style={{height: 1700, backgroundColor: "black"}}>
+				<NavBar />
+				<Background />
+				<GridListExampleSimple />
+				<CenterSquare />
+				<Contact />
+			</div>
+		</MuiThemeProvider>
+		)
 	}
 }
 

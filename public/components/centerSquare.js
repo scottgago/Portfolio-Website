@@ -4,7 +4,7 @@ import CenterSquareLeftButton from './CenterSquareLeftButton'
 
 const style = {
 	background: {
-		position: 'absolute',
+		position: 'fixed',
   		top: '52%',
   		left: '50%',
   		transform: 'translate(-50%, -50%)',
@@ -31,11 +31,19 @@ const style = {
 }
 
 export default class CenterSquare extends Component {
+
+	componentDidMount(){
+    	window.addEventListener("scroll", function(event) {
+      		var top = this.scrollY
+      		document.getElementById("NameTitle").style.height = 70 + top / 30 + "%"
+    	})
+  	}
+
 	render () {
 		return( 
-		<div style={style.background}>
+		<div id="NameTitle" style={style.background}>
 			<div style={style.titleStyle}>
-			<p style={style.topText}>Web Developer</p>
+			<p style={style.topText}>Full Stack Web Developer</p>
 			<p style={style.bottomText}>Scott Gago</p>
 			</div>
 			{

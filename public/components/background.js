@@ -2,20 +2,35 @@ import React, { Component } from 'react';
 
 const style = {
   background : {
-  	position: 'fixed',
-  	left: 0,
-  	top: 0,
-  	right: 0,
-  	bottom: 0,
+  	position: 'relative',
   	background: "url('./assets/imgs/water2.jpg')",
-  	
-    backgroundSize: '100% 100%',
-  	backgroundPosition: 'bottom 140px'
+    backgroundAttachment: 'fixed',
+    width: '100%',
+    height: 900,
+    minHeight: 'auto',
+    margin: 0,
+    backgroundSize: 'cover',
+    backgroundPosition: 'top center'
 	}
 }
 
+
 export default class Background extends Component {
+
+  constructor(props){
+    super(props)
+  }
+
+  componentDidMount(){
+    window.addEventListener("scroll", function(event) {
+      var top = this.scrollY
+      document.getElementById('FirstPanel').style.opacity = 1 - top / 700
+    })
+  }
+  
 	render () {
-		return <div style={style.background}></div>
+		return (
+      <div id="FirstPanel" style={style.background} ></div>
+    )
 	}
 }
