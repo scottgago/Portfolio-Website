@@ -15,7 +15,7 @@ class App extends Component {
 	render () {
 		return (
 		<MuiThemeProvider>
-	  		<div style={{height: 1700, backgroundColor: "black"}}>
+	  		<div style={{height: 1700, backgroundColor: "white"}}>
 				<NavBar />
 				<Background />
 				<GridListExampleSimple />

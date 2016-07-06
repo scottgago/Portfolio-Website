@@ -111,7 +111,7 @@
 					null,
 					_react2.default.createElement(
 						'div',
-						{ style: { height: 1700, backgroundColor: "black" } },
+						{ style: { height: 1700, backgroundColor: "white" } },
 						_react2.default.createElement(_navbar2.default, null),
 						_react2.default.createElement(_background2.default, null),
 						_react2.default.createElement(_gridList2.default, null),
@@ -21069,7 +21069,6 @@
 	var style = {
 	  background: {
 	    position: 'relative',
-	    background: "url('./assets/imgs/water2.jpg')",
 	    backgroundAttachment: 'fixed',
 	    width: '100%',
 	    height: 900,
@@ -21235,7 +21234,7 @@
 			width: '45%',
 			height: '70%',
 			fontFamily: "'Economica', sans-serif",
-			color: 'white'
+			color: 'black'
 		},
 		titleStyle: {
 			textAlign: 'center',
@@ -21243,7 +21242,7 @@
 		},
 		topText: {
 			fontSize: 22,
-			borderBottom: '1px solid white',
+			borderBottom: '1px solid black',
 			width: '40%',
 			margin: '0 auto'
 

@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 const style = {
   background : {
   	position: 'relative',
-  	background: "url('./assets/imgs/water2.jpg')",
     backgroundAttachment: 'fixed',
     width: '100%',
     height: 900,

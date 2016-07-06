@@ -2,10 +2,10 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './public/index.js',
+  entry: './index.js',
   output: {
     path: __dirname,
-    filename: '/public/bundle/bundle.js'
+    filename: '/bundle/bundle.js'
   },
   module: {
     loaders: [

@@ -11,7 +11,7 @@ const style = {
   		width: '45%',
   		height: '70%',
 		fontFamily: "'Economica', sans-serif",
-		color: 'white',
+		color: 'black',
 	},
 	titleStyle: {
 		textAlign: 'center',
@@ -19,7 +19,7 @@ const style = {
 	},
 	topText: {
 		fontSize: 22,
-		borderBottom: '1px solid white',
+		borderBottom: '1px solid black',
 		width: '40%',
 		margin: '0 auto'
 
