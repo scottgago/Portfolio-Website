@@ -21069,7 +21069,8 @@
 	var style = {
 	  background: {
 	    position: 'relative',
-	    backgroundAttachment: 'fixed',
+	    background: "url('./assets/imgs/treebackground.jpg')",
+	    backgroundAttachment: 'relative',
 	    width: '100%',
 	    height: 900,
 	    minHeight: 'auto',
