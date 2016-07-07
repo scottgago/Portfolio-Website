@@ -21146,13 +21146,13 @@
 		floatRight: {
 			float: 'right',
 			height: '100%',
-			width: '10%',
+			width: "10.1vw",
 			fontFamily: "'Economica', sans-serif",
 			color: 'black',
 			display: 'flex',
 			alignItems: 'center',
 			justifyContent: 'center',
-			fontSize: 30
+			fontSize: "2.1vw"
 		}
 	};
 
@@ -21616,21 +21616,17 @@
 	};
 
 	var tilesData = [{
-	  img: './assets/imgs/water2.jpg',
-	  title: 'Breakfast',
-	  author: 'jill111'
+	  img: './assets/imgs/constellations.jpg',
+	  title: 'Constellations',
+	  author: 'Map-structured learning tool'
 	}, {
-	  img: 'http://www.thelandinghall.com/design/red-table-cloth.png',
-	  title: 'Breakfst',
-	  author: 'jill111'
+	  img: './assets/imgs/orbitalDrop.png',
+	  title: 'Orbital Drop',
+	  author: 'Browser-based file-sharing application'
 	}, {
 	  img: 'http://wiki.arcknight.net/images/Armor-Cloth-HeadScarf.png',
-	  title: 'Brekfast',
-	  author: 'jill111'
-	}, {
-	  img: 'https://hydra-media.cursecdn.com/minecraft.gamepedia.com/thumb/5/54/Red_Cloth-Classic.png/120px-Red_Cloth-Classic.png?version=a0397bf1cdb0baf1bed73455aa3c3274',
-	  title: 'Breakft',
-	  author: 'jill111'
+	  title: 'Code-Pair',
+	  author: 'Social pair-programming application'
 	}];
 
 	var CenterSquare = function (_Component) {
@@ -21672,7 +21668,6 @@
 	                subtitle: _react2.default.createElement(
 	                  'span',
 	                  null,
-	                  'by ',
 	                  _react2.default.createElement(
 	                    'b',
 	                    null,

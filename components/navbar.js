@@ -12,13 +12,13 @@ const style = {
 	floatRight: {
 		float: 'right',
 		height: '100%',
-		width: '10%',
+		width: "10.1vw",
 		fontFamily: "'Economica', sans-serif",
 		color: 'black',
 		display: 'flex',
     	alignItems: 'center',
     	justifyContent: 'center',
-    	fontSize: 30
+    	fontSize: "2.1vw"
 	}
 }
 

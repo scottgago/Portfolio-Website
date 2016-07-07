@@ -21,24 +21,19 @@ const styles = {
 
 const tilesData = [
   {
-    img: './assets/imgs/water2.jpg',
-    title: 'Breakfast',
-    author: 'jill111',
+    img: './assets/imgs/constellations.jpg',
+    title: 'Constellations',
+    author: 'Map-structured learning tool',
   },
   {
-    img: 'http://www.thelandinghall.com/design/red-table-cloth.png',
-    title: 'Breakfst',
-    author: 'jill111',
+    img: './assets/imgs/orbitalDrop.png',
+    title: 'Orbital Drop',
+    author: 'Browser-based file-sharing application',
   },
   {
     img: 'http://wiki.arcknight.net/images/Armor-Cloth-HeadScarf.png',
-    title: 'Brekfast',
-    author: 'jill111',
-  },
-  {
-    img: 'https://hydra-media.cursecdn.com/minecraft.gamepedia.com/thumb/5/54/Red_Cloth-Classic.png/120px-Red_Cloth-Classic.png?version=a0397bf1cdb0baf1bed73455aa3c3274',
-    title: 'Breakft',
-    author: 'jill111',
+    title: 'Code-Pair',
+    author: 'Social pair-programming application',
   }
 ];
 
@@ -62,7 +57,7 @@ export default class CenterSquare extends Component {
         						<GridTile
           							key={tile.img}
           							title={tile.title}
-          							subtitle={<span>by <b>{tile.author}</b></span>}
+          							subtitle={<span><b>{tile.author}</b></span>}
           							actionIcon={<IconButton><StarBorder color="white" /></IconButton>}>
           								<img src={tile.img} />
         						</GridTile>

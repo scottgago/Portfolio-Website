@@ -18,18 +18,18 @@ overflow-y: scroll;
     opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
 	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-	animation-duration:1.5s;
-	font-size: 32px;
+	animation-duration:1s;
+	font-size: 2.1vw;
 }
 
 .fade-in.two {
     opacity:0;  /* make things invisible upon start */
-    
+
     animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
 	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-	animation-duration:1.5s;
+	animation-duration:1s;
 	animation-delay:1s;
-	font-size: 70px;
+	font-size: 3.1vw;
 	font-family: 'Allura', cursive;
 }
 
@@ -37,19 +37,19 @@ overflow-y: scroll;
     opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
 	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-	animation-duration:1.5s;
-	animation-delay:2.5s;
-	font-size: 32px;
-	margin-left: 120px;
+	animation-duration:1s;
+	animation-delay:2s;
+	font-size: 2.4vw;
+	margin-left: 2.4vw;
 }
 
 .fade-in.four {
     opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
 	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-	animation-duration:2.5s;
-	animation-delay:3.5s;
-	font-size: 70px;
+	animation-duration:1.5s;
+	animation-delay:3s;
+	font-size: 5.4vw;
 	font-family: 'Allura', cursive;
 	color: red;
 }
@@ -58,9 +58,9 @@ overflow-y: scroll;
     opacity:0;  /* make things invisible upon start */
     animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
 	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-	animation-duration:1.5s;
-	animation-delay:4.5s;
-	font-size: 32px;
+	animation-duration:1s;
+	animation-delay:4s;
+	font-size: 2.1vw;
 	margin-left: 78%;
 }
 
