@@ -43,11 +43,18 @@ export default class CenterSquareRightButton extends Component {
     	})
   	}
 
+
+
 	render () {
-		return <div id="Quote" style={style.background}>
+
+		return <div id="Quote" style={style.background} className="fade-out">
 		<div><span className="fade-in one">Others have seen what is and asked</span> <span className="fade-in two">'why?'</span>
 		<br />
-		<span className="fade-in three">I have seen what could be and asked</span> <span className="fade-in four">'why not?' </span></div> 
+		<span className="fade-in three">I have seen what could be and asked</span> <span className="fade-in four">'why not?' </span>
+		<br />
+		<span className="fade-in five">Pablo Picasso</span>
+		</div> 
 		</div>
+
 	}
 }

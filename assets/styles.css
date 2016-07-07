@@ -5,8 +5,14 @@ body {
 	padding: 0;
 }
 
+html {
+overflow: -moz-scrollbars-vertical; 
+overflow-y: scroll;
+}
 
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@keyframes slide { 100% { left: 0; } }
 
 .fade-in.one {
     opacity:0;  /* make things invisible upon start */
@@ -18,6 +24,7 @@ body {
 
 .fade-in.two {
     opacity:0;  /* make things invisible upon start */
+    
     animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
 	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
 	animation-duration:1.5s;
@@ -47,4 +54,20 @@ body {
 	color: red;
 }
 
-.fade-in
+.fade-in.five {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	animation-duration:1.5s;
+	animation-delay:4.5s;
+	font-size: 32px;
+	margin-left: 78%;
+}
+
+.fade-out {
+	opacity:1;  /* make things invisible upon start */
+    animation:fadeOut ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	animation-duration:2.5s;
+	animation-delay:6s;
+}

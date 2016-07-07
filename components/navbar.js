@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 const style = {
 	navBarStyle : {
-		
 		width: '100%',
 		height: 70,
-		position: 'absolute',
+		position: 'fixed',
 		top: 0,
-		left: 0
+		left: 0,
+		zIndex: 2
 	},
 	floatRight: {
 		float: 'right',
@@ -26,9 +26,9 @@ export default class NavBar extends Component {
 	render () {
 		return (
 			<div style={style.navBarStyle}>
-				<div style={style.floatRight}>Other Stuff</div>
-				<div style={style.floatRight}>Technical Blog</div>
 				<div style={style.floatRight}>About Me</div>
+				<div style={style.floatRight}>Technical Blog</div>
+				<div style={style.floatRight}>Portfolio</div>
 			</div>
 		)
 	}

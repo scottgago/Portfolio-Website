@@ -43,8 +43,9 @@ export default class CenterSquare extends Component {
 		return( 
 		<div id="NameTitle" style={style.background}>
 			<div style={style.titleStyle}>
-			<p style={style.topText}>Full Stack Web Developer</p>
-			<p style={style.bottomText}>Scott Gago</p>
+			<span style={style.topText}>Full Stack Web Developer</span>
+			<br />
+			<span style={style.bottomText}>Scott Gago</span>
 			</div>
 			<CenterSquareRightButton />
 			

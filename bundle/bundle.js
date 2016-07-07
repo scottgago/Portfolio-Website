@@ -21092,6 +21092,7 @@
 	  _createClass(Background, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
+
 	      window.addEventListener("scroll", function (event) {
 	        var top = this.scrollY;
 	        document.getElementById('FirstPanel').style.opacity = 1 - top / 700;
@@ -21135,12 +21136,12 @@
 
 	var style = {
 		navBarStyle: {
-
 			width: '100%',
 			height: 70,
-			position: 'absolute',
+			position: 'fixed',
 			top: 0,
-			left: 0
+			left: 0,
+			zIndex: 2
 		},
 		floatRight: {
 			float: 'right',
@@ -21173,7 +21174,7 @@
 					_react2.default.createElement(
 						'div',
 						{ style: style.floatRight },
-						'Other Stuff'
+						'About Me'
 					),
 					_react2.default.createElement(
 						'div',
@@ -21183,7 +21184,7 @@
 					_react2.default.createElement(
 						'div',
 						{ style: style.floatRight },
-						'About Me'
+						'Portfolio'
 					)
 				);
 			}
@@ -21281,12 +21282,13 @@
 						'div',
 						{ style: style.titleStyle },
 						_react2.default.createElement(
-							'p',
+							'span',
 							{ style: style.topText },
 							'Full Stack Web Developer'
 						),
+						_react2.default.createElement('br', null),
 						_react2.default.createElement(
-							'p',
+							'span',
 							{ style: style.bottomText },
 							'Scott Gago'
 						)
@@ -21379,9 +21381,10 @@
 		}, {
 			key: 'render',
 			value: function render() {
+
 				return _react2.default.createElement(
 					'div',
-					{ id: 'Quote', style: style.background },
+					{ id: 'Quote', style: style.background, className: 'fade-out' },
 					_react2.default.createElement(
 						'div',
 						null,
@@ -21407,6 +21410,12 @@
 							'span',
 							{ className: 'fade-in four' },
 							'\'why not?\' '
+						),
+						_react2.default.createElement('br', null),
+						_react2.default.createElement(
+							'span',
+							{ className: 'fade-in five' },
+							'Pablo Picasso'
 						)
 					)
 				);
@@ -21611,15 +21620,15 @@
 	  title: 'Breakfast',
 	  author: 'jill111'
 	}, {
-	  img: 'http://www.planwallpaper.com/static/images/7004205-cool-black-backgrounds-27640_lhK8IKI.jpg',
+	  img: 'http://www.thelandinghall.com/design/red-table-cloth.png',
 	  title: 'Breakfst',
 	  author: 'jill111'
 	}, {
-	  img: 'http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/06/Cool-HD-Pictures-5.jpg',
+	  img: 'http://wiki.arcknight.net/images/Armor-Cloth-HeadScarf.png',
 	  title: 'Brekfast',
 	  author: 'jill111'
 	}, {
-	  img: 'http://www.spyderonlines.com/image.php?pic=/images/wallpapers/cool-background-images/cool-background-images-22.jpg',
+	  img: 'https://hydra-media.cursecdn.com/minecraft.gamepedia.com/thumb/5/54/Red_Cloth-Classic.png/120px-Red_Cloth-Classic.png?version=a0397bf1cdb0baf1bed73455aa3c3274',
 	  title: 'Breakft',
 	  author: 'jill111'
 	}];

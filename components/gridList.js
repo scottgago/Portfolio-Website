@@ -26,17 +26,17 @@ const tilesData = [
     author: 'jill111',
   },
   {
-    img: 'http://www.planwallpaper.com/static/images/7004205-cool-black-backgrounds-27640_lhK8IKI.jpg',
+    img: 'http://www.thelandinghall.com/design/red-table-cloth.png',
     title: 'Breakfst',
     author: 'jill111',
   },
   {
-    img: 'http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/06/Cool-HD-Pictures-5.jpg',
+    img: 'http://wiki.arcknight.net/images/Armor-Cloth-HeadScarf.png',
     title: 'Brekfast',
     author: 'jill111',
   },
   {
-    img: 'http://www.spyderonlines.com/image.php?pic=/images/wallpapers/cool-background-images/cool-background-images-22.jpg',
+    img: 'https://hydra-media.cursecdn.com/minecraft.gamepedia.com/thumb/5/54/Red_Cloth-Classic.png/120px-Red_Cloth-Classic.png?version=a0397bf1cdb0baf1bed73455aa3c3274',
     title: 'Breakft',
     author: 'jill111',
   }

@@ -22,6 +22,7 @@ export default class Background extends Component {
   }
 
   componentDidMount(){
+
     window.addEventListener("scroll", function(event) {
       var top = this.scrollY
       document.getElementById('FirstPanel').style.opacity = 1 - top / 700
