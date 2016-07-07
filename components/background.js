@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 const style = {
   background : {
   	position: 'relative',
-  	background: "url('./assets/imgs/treebackground.jpg')",
-    backgroundAttachment: 'relative',
+  	background: "url('./assets/imgs/treebackground.jpg') no-repeat center center fixed",
+    backgroundAttachment: 'fixed',
     width: '100%',
     height: 900,
     minHeight: 'auto',

@@ -15,6 +15,7 @@ const styles = {
     height: 600,
     overflowY: 'auto',
     marginBottom: 24,
+    marginTop: '7%'
   },
 };
 
@@ -56,7 +57,7 @@ export default class CenterSquare extends Component {
     				<GridList
       					cellHeight={200}
       					style={styles.gridList}>
-      					<Subheader>December</Subheader>
+      					<Subheader></Subheader>
       						{tilesData.map((tile) => (
         						<GridTile
           							key={tile.img}

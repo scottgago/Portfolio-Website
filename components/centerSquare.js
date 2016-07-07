@@ -18,14 +18,14 @@ const style = {
 		width: '100%'
 	},
 	topText: {
-		fontSize: 22,
+		fontSize: 33,
 		borderBottom: '1px solid black',
 		width: '40%',
 		margin: '0 auto'
 
 	},
 	bottomText: {
-		fontSize: 44,
+		fontSize: 66,
 		marginTop: 0
 	}
 }
@@ -46,10 +46,8 @@ export default class CenterSquare extends Component {
 			<p style={style.topText}>Full Stack Web Developer</p>
 			<p style={style.bottomText}>Scott Gago</p>
 			</div>
-			{
-			// <CenterSquareRightButton />
-			// <CenterSquareLeftButton />
-			}
+			<CenterSquareRightButton />
+			
 		</div>)
 	}
 }

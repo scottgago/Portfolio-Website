@@ -11,7 +11,7 @@ const style = {
 		bottom: 0,
 		height: '10%',
 		fontFamily: "'Economica', sans-serif",
-		color: 'white',
+		color: 'black',
 		display: 'flex',
     	alignItems: 'center',
     	justifyContent: 'center',

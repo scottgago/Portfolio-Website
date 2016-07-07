@@ -1,4 +1,50 @@
+
+
 body {
 	margin: 0;
 	padding: 0;
 }
+
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in.one {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	animation-duration:1.5s;
+	font-size: 32px;
+}
+
+.fade-in.two {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	animation-duration:1.5s;
+	animation-delay:1s;
+	font-size: 70px;
+	font-family: 'Allura', cursive;
+}
+
+.fade-in.three {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	animation-duration:1.5s;
+	animation-delay:2.5s;
+	font-size: 32px;
+	margin-left: 40px;
+}
+
+.fade-in.four {
+    opacity:0;  /* make things invisible upon start */
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	animation-duration:2.5s;
+	animation-delay:3.5s;
+	font-size: 70px;
+	font-family: 'Allura', cursive;
+	color: red;
+}
+
+.fade-in

@@ -14,7 +14,7 @@ const style = {
 		height: '100%',
 		width: '10%',
 		fontFamily: "'Economica', sans-serif",
-		color: 'white',
+		color: 'black',
 		display: 'flex',
     	alignItems: 'center',
     	justifyContent: 'center',

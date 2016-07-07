@@ -5,23 +5,41 @@ const style = {
 		float: 'right',
 		position: 'absolute',
 		display: 'block',
-		width: "45%",
-		borderStyle: 'solid',
-		borderWidth: 3,
-		bottom: 0,
+		width: "100%",
+		bottom: '50%',
 		right: 0,
 		height: '10%',
 		fontFamily: "'Economica', sans-serif",
-		color: 'white',
+		color: 'black',
 		display: 'flex',
     	alignItems: 'center',
     	justifyContent: 'center',
     	fontSize: 40
+	},
+	topQuote: {
+		height: '50%',
+		fontSize: 32
+	},
+	topQuoteRight: {
+		height: '50%',
+		fontSize: 32,
+		marginLeft: 40
+	},
+	bottomQuote : {
+		fontSize: 70,
+		fontFamily: "'Allura', cursive",
+		opacity: 1,
+   		transition: 'opacity .25s ease-in-out'
 	}
+
 }
 
 export default class CenterSquareRightButton extends Component {
 	render () {
-		return <div style={style.background}>Technical Blog</div>
+		return <div style={style.background}>
+		<div><span className="fade-in one">Others have seen what is and asked</span> <span className="fade-in two">'why?'</span>
+		<br />
+		<span className="fade-in three">I have seen what could be and asked</span> <span className="fade-in four">'why not?' </span></div> 
+		</div>
 	}
 }

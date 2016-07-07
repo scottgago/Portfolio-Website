@@ -21069,8 +21069,8 @@
 	var style = {
 	  background: {
 	    position: 'relative',
-	    background: "url('./assets/imgs/treebackground.jpg') no-repeat center center fixed",
-	    backgroundAttachment: 'fixed',
+	    background: "url('./assets/imgs/treebackground.jpg')",
+	    backgroundAttachment: 'relative',
 	    width: '100%',
 	    height: 900,
 	    minHeight: 'auto',
@@ -21147,7 +21147,7 @@
 			height: '100%',
 			width: '10%',
 			fontFamily: "'Economica', sans-serif",
-			color: 'black',
+			color: 'white',
 			display: 'flex',
 			alignItems: 'center',
 			justifyContent: 'center',
@@ -21242,14 +21242,14 @@
 			width: '100%'
 		},
 		topText: {
-			fontSize: 33,
+			fontSize: 22,
 			borderBottom: '1px solid black',
 			width: '40%',
 			margin: '0 auto'
 
 		},
 		bottomText: {
-			fontSize: 66,
+			fontSize: 44,
 			marginTop: 0
 		}
 	};
@@ -21290,8 +21290,7 @@
 							{ style: style.bottomText },
 							'Scott Gago'
 						)
-					),
-					_react2.default.createElement(_CenterSquareRightButton2.default, null)
+					)
 				);
 			}
 		}]);
@@ -21334,29 +21333,15 @@
 			float: 'right',
 			position: 'absolute',
 			display: 'block',
-			width: "100%",
-			bottom: '50%',
+			width: "45%",
+			borderStyle: 'solid',
+			borderWidth: 3,
+			bottom: 0,
 			right: 0,
 			height: '10%',
 			fontFamily: "'Economica', sans-serif",
-			color: 'black'
-		}, _defineProperty(_background, 'display', 'flex'), _defineProperty(_background, 'alignItems', 'center'), _defineProperty(_background, 'justifyContent', 'center'), _defineProperty(_background, 'fontSize', 40), _background),
-		topQuote: {
-			height: '50%',
-			fontSize: 32
-		},
-		topQuoteRight: {
-			height: '50%',
-			fontSize: 32,
-			marginLeft: 40
-		},
-		bottomQuote: {
-			fontSize: 70,
-			fontFamily: "'Allura', cursive",
-			opacity: 1,
-			transition: 'opacity .25s ease-in-out'
-		}
-
+			color: 'white'
+		}, _defineProperty(_background, 'display', 'flex'), _defineProperty(_background, 'alignItems', 'center'), _defineProperty(_background, 'justifyContent', 'center'), _defineProperty(_background, 'fontSize', 40), _background)
 	};
 
 	var CenterSquareRightButton = function (_Component) {
@@ -21374,33 +21359,7 @@
 				return _react2.default.createElement(
 					'div',
 					{ style: style.background },
-					_react2.default.createElement(
-						'div',
-						null,
-						_react2.default.createElement(
-							'span',
-							{ className: 'fade-in one' },
-							'Others have seen what is and asked'
-						),
-						' ',
-						_react2.default.createElement(
-							'span',
-							{ className: 'fade-in two' },
-							'\'why?\''
-						),
-						_react2.default.createElement('br', null),
-						_react2.default.createElement(
-							'span',
-							{ className: 'fade-in three' },
-							'I have seen what could be and asked'
-						),
-						' ',
-						_react2.default.createElement(
-							'span',
-							{ className: 'fade-in four' },
-							'\'why not?\' '
-						)
-					)
+					'Technical Blog'
 				);
 			}
 		}]);
@@ -21449,7 +21408,7 @@
 			bottom: 0,
 			height: '10%',
 			fontFamily: "'Economica', sans-serif",
-			color: 'black'
+			color: 'white'
 		}, _defineProperty(_background, 'display', 'flex'), _defineProperty(_background, 'alignItems', 'center'), _defineProperty(_background, 'justifyContent', 'center'), _defineProperty(_background, 'fontSize', 40), _background)
 	};
 
@@ -21593,8 +21552,7 @@
 	    width: '80%',
 	    height: 600,
 	    overflowY: 'auto',
-	    marginBottom: 24,
-	    marginTop: '7%'
+	    marginBottom: 24
 	  }
 	};
 
@@ -21645,7 +21603,11 @@
 	          {
 	            cellHeight: 200,
 	            style: styles.gridList },
-	          _react2.default.createElement(_Subheader2.default, null),
+	          _react2.default.createElement(
+	            _Subheader2.default,
+	            null,
+	            'December'
+	          ),
 	          tilesData.map(function (tile) {
 	            return _react2.default.createElement(
 	              _GridList.GridTile,
