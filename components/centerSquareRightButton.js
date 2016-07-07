@@ -35,8 +35,16 @@ const style = {
 }
 
 export default class CenterSquareRightButton extends Component {
+	
+	componentDidMount(){
+    	window.addEventListener("scroll", function(event) {
+      		var top = this.scrollY
+      		document.getElementById('Quote').style.opacity = 1 - top / 700
+    	})
+  	}
+
 	render () {
-		return <div style={style.background}>
+		return <div id="Quote" style={style.background}>
 		<div><span className="fade-in one">Others have seen what is and asked</span> <span className="fade-in two">'why?'</span>
 		<br />
 		<span className="fade-in three">I have seen what could be and asked</span> <span className="fade-in four">'why not?' </span></div> 

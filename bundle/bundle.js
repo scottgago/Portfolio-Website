@@ -21232,7 +21232,7 @@
 			top: '52%',
 			left: '50%',
 			transform: 'translate(-50%, -50%)',
-			width: '45%',
+			width: '80%',
 			height: '70%',
 			fontFamily: "'Economica', sans-serif",
 			color: 'black'
@@ -21369,11 +21369,19 @@
 		}
 
 		_createClass(CenterSquareRightButton, [{
+			key: 'componentDidMount',
+			value: function componentDidMount() {
+				window.addEventListener("scroll", function (event) {
+					var top = this.scrollY;
+					document.getElementById('Quote').style.opacity = 1 - top / 700;
+				});
+			}
+		}, {
 			key: 'render',
 			value: function render() {
 				return _react2.default.createElement(
 					'div',
-					{ style: style.background },
+					{ id: 'Quote', style: style.background },
 					_react2.default.createElement(
 						'div',
 						null,
